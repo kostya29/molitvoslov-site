@@ -87,6 +87,28 @@
             color: var(--faint);
         }
 
+        /* Video */
+        .video-section {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px 20px 0;
+        }
+
+        .video-section h2 {
+            text-align: center;
+            font-size: 1.8rem;
+            margin-bottom: 32px;
+        }
+
+        .promo-video {
+            display: block;
+            width: 100%;
+            aspect-ratio: 16 / 9;
+            border-radius: 16px;
+            background: #6b0a0c;
+            box-shadow: 0 8px 32px rgba(139, 26, 26, 0.18);
+        }
+
         /* Features */
         .features {
             max-width: 900px;
@@ -227,6 +249,13 @@
         Скачать APK
     </a>
     <p class="version-info">Версия 1.0.11 &middot; Android 8.0+</p>
+</section>
+
+<section class="video-section">
+    <h2>Видео</h2>
+    <video class="promo-video" controls playsinline preload="none" poster="promo-poster.jpg" aria-label="Видео о приложении «Молитвослов»">
+        <source src="promo.mp4" type="video/mp4">
+    </video>
 </section>
 
 <section class="features">
